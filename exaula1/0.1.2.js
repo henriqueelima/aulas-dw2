@@ -14,6 +14,6 @@ function mercado(valor, isConvenio, isCartao) {
   }
 }
 
-console.log(mercado(80, true, true));
+console.log(mercado(70, true, true));
 console.log(mercado(100, false, true));
 console.log(mercado(120, false, false));
