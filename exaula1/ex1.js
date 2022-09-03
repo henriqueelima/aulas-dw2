@@ -1,4 +1,13 @@
-function valores() {
+function valores(p1, p2, p3) {
+}
+
+comprar (100, false, false) = 100
+
+comprar (100, true, true) = 80
+
+
+
+
 	const valor1;
 	let cartaodaloja = true;
 
