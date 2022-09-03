@@ -1,15 +1,10 @@
-function valores(p1, p2, p3) {
-}
-
-comprar (100, false, false) = 100
-
-comprar (100, true, true) = 80
+function mercado(valor, convenio, cartao) {
 
 	const valor1;
 	let cartaodaloja = true;
 
-  const desconto1 = valor1 * 0.15;
-  const desconto2 = valor1 * 0.10;
+  const descontototal = isCartao && isConvenio;
+  const descontoparcial = isCartao || isConvenio;
 
 if (cartaodaloja) {
   console.log('usou o cartao da loja'), desconto1;
@@ -17,3 +12,7 @@ if (cartaodaloja) {
 		console.log('nao usou o cartao da loja');
 	}
 }
+
+console.log(mercado(80, true, true));
+console.log(mercado(100, false, true));
+console.log(mercado(120, false, false));
