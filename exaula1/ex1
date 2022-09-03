@@ -1,5 +1,0 @@
-const valor = true;
-
-if (valor) {
-  console.log('valor true');
-}
