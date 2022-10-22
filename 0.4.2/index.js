@@ -21,3 +21,14 @@ const alunos = [
     ],
   },
 ];
+
+const resultado = alunos.map((aluno) => {
+  aluno.mediaGeral =
+    aluno.notas.reduce((acc, _nota) => {
+      const { nota } = _nota;
+      return acc + nota;
+    }, 0) / aluno.notas.length;
+  return aluno;
+});
+
+console.log(resultado);
